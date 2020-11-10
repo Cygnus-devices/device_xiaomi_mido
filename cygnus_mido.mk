@@ -24,11 +24,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/cygnus/configs/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := revengeos_mido
+PRODUCT_NAME := cygnus_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_mido.mk
+    $(LOCAL_DIR)/cygnus_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_mido-user \
-    revengeos_mido-userdebug \
-    revengeos_mido-eng
+    cygnus_mido-user \
+    cygnus_mido-userdebug \
+    cygnus_mido-eng
